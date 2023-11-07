@@ -1,0 +1,15 @@
+.portrait {
+  background-image: url(../images/selfportrait.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding-bottom: 640px;
+  margin-bottom: -640px;
+}
+
+#about-me {
+  min-height: 640px;
+}
+
+.container {
+  position: relative;
+}
