@@ -6,13 +6,14 @@
   margin-bottom: -640px;
 }
 
-#about-me {
-  min-height: 640px;
+#aboutMe {
+  min-height: 500px;
+  margin-top: 650px;
 }
 
 #project1 {
-  max-width: 550px;
-  min-height: 350px;
+  max-width: 590px;
+  min-height: 390px;
 }
 
 #project2 {
@@ -37,4 +38,14 @@
 
 .container {
   position: relative;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  justify-content: flex-end;
+}
+
+.card {
+  margin: 20px 20px;
 }
