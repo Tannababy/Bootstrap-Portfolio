@@ -12,7 +12,7 @@ body {
 
 .portrait {
   background-image: url(../images/selfportrait.png);
-  background-position: left;
+  background-position: right;
   background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 800px !important;
@@ -27,6 +27,17 @@ body {
 #skills {
   height: 300px;
   align-items: center;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding-inline-start: 50px;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 #project1 {
