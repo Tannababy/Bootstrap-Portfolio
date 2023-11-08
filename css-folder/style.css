@@ -3,22 +3,29 @@ body {
   color: #151360;
 }
 
+#navBar {
+  background: #e6e0f9;
+}
+
 .heroBanner {
-  padding-top: 200px;
+  float: right;
+  padding-top: 100px;
+  align-items: flex-end;
+  z-index: 15;
 }
 
 .portrait {
   background-image: url(../images/selfportrait.png);
-  background-position: right 200px;
+  background-position: left;
   background-repeat: no-repeat;
   padding-top: 200px;
-  padding-bottom: 640px;
-  margin-bottom: -640px;
+  padding-bottom: 800px;
+  margin-bottom: -800px;
 }
 
 #aboutMe {
   min-height: 500px;
-  padding-top: 650px;
+  padding-top: 550px;
 }
 
 #project1 {
@@ -45,5 +52,19 @@ body {
 }
 
 .card {
+  background-color: #151360;
   margin: 20px 20px;
+  border-radius: 8px;
+  padding: 20px 20px;
+}
+
+.footer-link {
+  list-style-type: none;
+  float: right;
+  padding-left: 50px;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #151360;
 }
