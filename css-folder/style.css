@@ -1,14 +1,24 @@
+body {
+  background-color: #e6e0f9;
+  color: #151360;
+}
+
+.heroBanner {
+  padding-top: 200px;
+}
+
 .portrait {
   background-image: url(../images/selfportrait.png);
-  background-position: right top;
+  background-position: right 200px;
   background-repeat: no-repeat;
+  padding-top: 200px;
   padding-bottom: 640px;
   margin-bottom: -640px;
 }
 
 #aboutMe {
   min-height: 500px;
-  margin-top: 650px;
+  padding-top: 650px;
 }
 
 #project1 {
@@ -16,21 +26,9 @@
   min-height: 390px;
 }
 
-#project2 {
-  max-width: 275px;
-  min-height: 175px;
-}
-
-#project3 {
-  max-width: 275px;
-  min-height: 175px;
-}
-
-#project4 {
-  max-width: 275px;
-  min-height: 175px;
-}
-
+#project2,
+#project3,
+#project4,
 #project5 {
   max-width: 275px;
   min-height: 175px;
