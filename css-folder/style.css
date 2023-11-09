@@ -84,10 +84,6 @@ body {
   position: relative;
 }
 
-/*.project {
-  justify-content: center;
-}*/
-
 .first-row,
 .second-row,
 .third-row {
@@ -99,6 +95,11 @@ body {
   margin: 20px 20px;
   border-radius: 8px;
   padding: 20px 20px;
+}
+
+.card-text {
+  color: aliceblue;
+  text-align: center;
 }
 
 .footer {
