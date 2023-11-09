@@ -1,6 +1,7 @@
 :root {
   --my-outline-color: #615dc2;
   --background: #e6e0f9;
+  --hover-color: rgb(19, 231, 231);
 }
 
 body {
@@ -55,6 +56,13 @@ body {
   justify-content: space-evenly;
 }
 
+.btn-primary:hover {
+  background-color: var(--hover-color) !important;
+  transition: 0.8 ease;
+  color: var(--my-outline-color);
+  box-shadow: 10px 5px 5px purple;
+}
+
 #project1 {
   max-width: 590px;
   min-height: 390px;
@@ -106,7 +114,7 @@ body {
 
 footer nav a:hover {
   cursor: pointer;
-  color: aqua;
+  color: var(--hover-color);
   transition: 0.5s ease-in-out;
 }
 
