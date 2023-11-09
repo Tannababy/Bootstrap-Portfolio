@@ -50,6 +50,10 @@ body {
   padding-inline-start: 50px;
 }
 
+.about-text {
+  text-align: center;
+}
+
 .skillsList {
   display: flex;
   flex-direction: row;
